@@ -32,3 +32,5 @@ double dmsToRadians(int deg, int min, double sec);
 double arcsecToRadians(double arcsec);
 
 std::ifstream openFile(const std::string& path);
+
+std::vector<Station> readStations(const std::string& path);
